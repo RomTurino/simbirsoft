@@ -1,8 +1,8 @@
+from django.conf import settings
 from django.test import TestCase
 from typing import List
 from .services import QuizResultService
 from .dto import ChoiceDTO, QuestionDTO, QuizDTO, AnswerDTO, AnswersDTO
-
 
 class BaseTestCase(TestCase):
     def setUp(self):
